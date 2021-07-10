@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    width: 100%;
+}
+header{
+    padding: 20px;
+    background-color: aqua;
+}
+footer{
+    padding-bottom: 6em;
+    display: block;
+    background-color: #ccc;
+    
+}
