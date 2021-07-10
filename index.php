@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +9,21 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <header>
-    <h1>Francisco José Valle Cornejo</h1>
-    <p>Desarrollador Web FrontEnd</p>
-</header>
+        <h1>Francisco José Valle Cornejo</h1>
+        <h2 id="descrip">Desarrollador Web FrontEnd</p>
+    </header>
 <body>
     <section>
-        <div class="probando">
-            <p>Veamos dijo el ciego</p>
-        </div>
-        <a href="prueba.php">Archivo PHP</a>
+        <article>
+            <div class="Presentacion">
+                <h3>¿Quién soy?</h3>
+                <p>Mi nombre es Francisco José Valle Cornejo, soy un desarrollador web FrontEnd y de PHP</p>
+            </div>
+        </article>
     </section>
 </body>
 <footer>
-    <p>Creado con Amor por Francisco Valle</p>
+    <p>Creado con Amor por Francisco Valle 2021</p>
 </footer>
+
 </html>

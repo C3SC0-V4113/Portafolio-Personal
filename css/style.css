@@ -1,14 +1,43 @@
 *{
     margin: 0;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
+    padding: 50px 0px 50px 0px ;
+    background-color: #44EABB;
+    text-align: center;
+}
+body{
+    background-color: #D8E8E4;
+}
+article{
+    border-radius: 5px;
+    left: 0;
+    width: 80%;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #080E2C;
+    color: #ccc;
+}
+.Presentacion{
     padding: 20px;
-    background-color: aqua;
+}
+#descrip{
+    font-size: small;
 }
 footer{
-    padding-bottom: 6em;
-    display: block;
-    background-color: #ccc;
-    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F3FDFB;
+    clear: both;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: fixed;
+
+}
+footer p{
+    padding-left: 15px;
 }
