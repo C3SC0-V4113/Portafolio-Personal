@@ -20,6 +20,12 @@
                 <p>Mi nombre es Francisco José Valle Cornejo, soy un desarrollador web FrontEnd y de PHP</p>
             </div>
         </article>
+        <article>
+            <div>
+                <h3>Mis habilidades</h3>
+                <p>Se usar HTML,CSS, JavaScript y PHP</p>
+            </div>
+        </article>
     </section>
 </body>
 <footer>
