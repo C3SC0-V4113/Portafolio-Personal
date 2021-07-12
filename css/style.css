@@ -1,9 +1,5 @@
-*{
-    margin: 0;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-header{
+
+#header{
     padding: 50px 0px 50px 0px ;
     background-color: #44EABB;
     text-align: center;
@@ -27,17 +23,15 @@ article div{
 #descrip{
     font-size: small;
 }
-footer{
+#footer{
     bottom: 0;
     left: 0;
-    width: 100%;
     background-color: #F3FDFB;
     clear: both;
     padding-bottom: 15px;
     padding-top: 15px;
-    position: fixed;
 
 }
-footer p{
+#footer p{
     padding-left: 15px;
 }
