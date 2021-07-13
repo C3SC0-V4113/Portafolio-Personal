@@ -1,0 +1,15 @@
+{
+    "name": "valle/portafolio-personal",
+    "description": "Portafolio Personal Web",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Francisco Valle",
+            "email": "vallecesco@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twbs/bootstrap": "5.0.2"
+    }
+}
