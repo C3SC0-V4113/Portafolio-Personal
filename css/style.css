@@ -57,13 +57,17 @@ article div{
 #footer{
     bottom: 0;
     left: 0;
-    background-color: #F3FDFB;
+    background-color: #CFE4E6;
+    text-align: center;
     clear: both;
     padding-bottom: 15px;
     padding-top: 15px;
 }
 #footer p{
     padding-left: 15px;
+}
+#footpadre{
+    background-color: #F3FDFB;
 }
 #contactme{
     justify-content: center;
@@ -81,6 +85,9 @@ article div{
     }
     #contactme p{
         margin: auto;
+    }
+    #redsvg{
+        margin-top: 1rem;
     }
 }
 #iconsmedia{
@@ -116,4 +123,9 @@ svg:hover{
     text-align: center;
     vertical-align: middle;
     color: blue;
+}
+#sivar{
+    text-align: center;
+    margin: auto;
+    padding-top: 2rem;
 }
