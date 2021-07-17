@@ -12,7 +12,7 @@
 
 <body>
     <!--Barra de Navegacion-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="navbarcool">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" id="navbarcool">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -166,15 +166,16 @@
                             <div class="col-12">
                                 <p>SV 01101</p>
                             </div>
-                            <div class="col-12">
-                                <p>vallecesco@cescovalle.com</p>
-                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             <div class="col-12" id="footer">
-                <p> © Creado con Amor por Francisco Valle 2021</p>
+                <div class="row align-content-center">
+                    <div class="col-12 text-center">Iconos creados por <a href="https://www.flaticon.com/authors/stickers" title="Stickers">Stickers</a> de <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                    <div class="col-12 text-center">Fotos Cortesía de Karla Valle</div>
+                    <div class="col-12 text-center"><p> © Creado con Amor por Francisco Valle 2021</p></div>
+                </div>
             </div>
         </div>
     </div>

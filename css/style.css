@@ -1,5 +1,6 @@
 #navbarcool{
     background-color: #6CAD9B;
+    color: red;
 }
 #header{
     padding: 50px 0px 50px 0px ;
@@ -97,6 +98,8 @@ article div{
 svg{
     height: 5rem;
     width: 5rem;
+    max-width: 81px;
+    max-height: 81px;
     display: block;
     margin: auto;
 }
