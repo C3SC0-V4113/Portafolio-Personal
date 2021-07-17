@@ -65,3 +65,55 @@ article div{
 #footer p{
     padding-left: 15px;
 }
+#contactme{
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+}
+#contactme p{
+    margin: auto;
+    margin-top: 32px;
+    text-align: center;
+}
+@media screen and (max-width: 767px){
+    #iconsmedia{
+        margin-top: 1rem;
+    }
+    #contactme p{
+        margin: auto;
+    }
+}
+#iconsmedia{
+    align-content: center;
+    justify-content: center;
+}
+svg{
+    height: 5rem;
+    width: 5rem;
+    display: block;
+    margin: auto;
+}
+svg:hover{
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+#redsvg{
+    display:inline-block;
+    position:relative;
+}
+#redsvg>div{
+    position:absolute;
+    top:0;
+    left:0;
+    /*z-index:-1;*/
+    padding:10px;
+    margin: 0;
+    transform: translate(50%, 50%);
+    text-align: center;
+    vertical-align: middle;
+    color: blue;
+}
