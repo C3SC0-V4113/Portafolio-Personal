@@ -1,38 +1,45 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+#header>div>h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
 #navbarcool{
-    background-color: #6CAD9B;
-    color: red;
+    background-color: #29AAE1;
 }
 #header{
-    padding: 50px 0px 50px 0px ;
-    background-color: #44EABB;
+    position: relative;
+    background: rgb(41,170,225);
+    background: linear-gradient(180deg, rgba(41,170,225,1) 21%, rgba(247,126,172,1) 64%);
     text-align: center;
+    height: 30rem;
+    border-bottom-left-radius: 100% 20rem;
+    border-bottom-right-radius: 100% 20rem;
     /*-webkit-box-shadow: 0px 16px 40px 5px #9AAACF; 
     box-shadow: 0px 16px 40px 5px #9AAACF;*/
 }
-.titulo{
-    margin-left: 10rem;
-    margin-right: 10rem;
-    opacity: 0.9;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 #6CAD9B;
-    backdrop-filter: blur( 6.0px );
-    -webkit-backdrop-filter: blur( 6.0px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    border-radius: 10px;
-    border: solid #080E2C .1px;
-    align-items: center;
-    justify-content: space-evenly;
+#head{
+    text-align: left;
+    padding-left: 18rem;
+    padding-top: 10rem;
+}
+#head>div>h1{
+    color: #ccc;
+    font-weight: bold;
+}
+#head>div>span{
+    position: relative;
+    padding: 0.5rem;
+    color: black;
+    font-weight: bolder;
+    background-color: #CFE4E6;
 }
 
-@media screen and (max-width: 880px){
-    .titulo{
-        margin-left: 5rem;
-        margin-right: 5rem;
-    }
-    .titulo h1,h2{
-        padding: 8px;
-    }
-}
+/*#header>div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}*/
 
 body{
     background-color: #D8E8E4;
@@ -52,8 +59,8 @@ article{
 article div{
     padding: 20px;
 }
-#descrip{
-    font-size: small;
+rect{
+    fill: none;
 }
 #footer{
     bottom: 0;
@@ -95,7 +102,7 @@ article div{
     align-content: center;
     justify-content: center;
 }
-svg{
+#redsvg>svg{
     height: 5rem;
     width: 5rem;
     max-width: 81px;
@@ -103,7 +110,7 @@ svg{
     display: block;
     margin: auto;
 }
-svg:hover{
+#redsvg>svg:hover{
     opacity: 0.07;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;
@@ -131,4 +138,8 @@ svg:hover{
     text-align: center;
     margin: auto;
     padding-top: 2rem;
+}
+#Layer_1{
+    height: 30rem;
+    width: 30rem;
 }
