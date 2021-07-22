@@ -35,13 +35,15 @@
     font-weight: bolder;
     background-color: #CFE4E6;
 }
-
-/*#header>div{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}*/
-
+@media screen and (min-width: 768px) and (max-width: 930px) {
+    #head{
+        padding-left: 20rem;
+    }
+}
 body{
+    background-image: url("../img/68964ce98ff171061e38665c472dbe95.jpg");
+    background-repeat: repeat;
+    background-size: 20rem;
     background-color: #D8E8E4;
 }
 article{
@@ -88,6 +90,17 @@ rect{
     text-align: center;
 }
 @media screen and (max-width: 767px){
+    #header{
+        position: relative;
+        height: 15rem;
+        border-bottom-left-radius: 100% 10rem;
+        border-bottom-right-radius: 100% 10rem;
+    }
+    #head{
+        text-align: center;
+        padding-left: 0rem;
+        padding-top: 3rem;
+    }
     #iconsmedia{
         margin-top: 1rem;
     }
@@ -96,6 +109,14 @@ rect{
     }
     #redsvg{
         margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    #header{
+        position: relative;
+        height: 14rem;
+        border-bottom-left-radius: 100% 5rem;
+        border-bottom-right-radius: 100% 5rem;
     }
 }
 #iconsmedia{
@@ -109,6 +130,9 @@ rect{
     max-height: 81px;
     display: block;
     margin: auto;
+}
+#redsvg>svg>a>path{
+    fill: #2AD1A4;
 }
 #redsvg>svg:hover{
     opacity: 0.07;
@@ -143,3 +167,17 @@ rect{
     height: 30rem;
     width: 30rem;
 }
+.btn-primary{
+    background-color: #2AD1A4;
+    border-color: #2BD2A4;
+}
+/*@media screen and (min-width: 425px) and (max-width: 768px) {
+    #Layer_1{
+        margin-left: 2rem;
+        height: 25rem;
+        width: 25rem;
+    }
+    #head{
+        padding-top: 7rem;
+    }
+}*/
