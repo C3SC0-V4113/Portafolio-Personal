@@ -1698,16 +1698,18 @@
                             </div>
                             <div class="Presentacion col-12 col-md-8">
 								<div class="row">
-									<div class="col-1" id="parentesis">
+									<div class="col-2 d-none d-md-block verdecito" id="parentesis">
 										<p>{</p>
 									</div>
-									<div class="col-10">
+									<div class="col-12 col-md-8">
+										<h3 class="verdecito">Sobre mí</h3>
+									<hr class="d-sm-block d-md-none" id="divisor">
 									<p>Mi nombre es Francisco José Valle Cornejo</p>
-                                <p>
-                                    Soy Desarrollador Web FrontEnd salvadoreño. He estado haciendo paginas web desde mediados del año 2020 por cursos universitarios. Despues me he expandido a cursos externos en Platzi y Udemy para aumentar mi conocimiento en este campo de la programación.
-                                </p>
+                                		<p>
+                                    		Soy Desarrollador Web FrontEnd salvadoreño. He estado haciendo paginas web desde mediados del año 2020 por cursos universitarios. Despues me he expandido a cursos externos en Platzi y Udemy para aumentar mi conocimiento en este campo de la programación.
+                                		</p>
 									</div>
-									<div class="col-1" id="parentesis">
+									<div class="col-2 d-none d-md-block verdecito" id="parentesis">
 										<p>}</p>
 									</div>
 								</div>

@@ -117,6 +117,15 @@ article div{
     transform: rotate(270deg);
     margin-top: -8rem;
 }
+.verdecito{
+    color: #2BD2A4;
+}
+#parentesis>p{
+    font-size: 10rem;
+}
+#divisor{
+    border: 1px solid #2BD2A4;
+}
 rect{
     fill: none;
 }
@@ -235,6 +244,23 @@ rect{
 .btn-primary{
     background-color: #2AD1A4;
     border-color: #2BD2A4;
+}
+@media screen and (min-width:425px) and (max-width:768px){
+        #two{
+        z-index: 2;
+        float: left;
+        transform: rotate(180deg);
+        width: 4rem;
+        height: 4rem;
+        margin-top: -11rem;
+    }
+    #three{
+        float: right;
+        width: 6rem;
+        height: 6rem;
+        transform: rotate(270deg);
+        margin-top: -10rem;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 986px) {
     #one{
