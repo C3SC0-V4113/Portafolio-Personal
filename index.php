@@ -1681,22 +1681,36 @@
         </div>
     </div>
     <!--Cuerpo-->
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
+			<!--<svg id="rectangulofondo">
+  				<rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+			</svg>-->
             <div class="col">
                 <section id="about">
                     <article>
                         <div class="row">
-                            <h3>Sobre mí</h3>
-                            <hr>
-                            <div class="col-12 col-md-4">
-                                <img src="img/practice_2_recorte.jpg" class="img-fluid rounded mx-auto d-block" alt="perfil">
+                            <div class="col-12 col-md-4" id="foto-persona">
+								<div class="circulos" id="one"></div>
+                                <img src="img/practice_3_MEJOR.jpg" class="img-fluid rounded-circle mx-auto d-block" alt="perfil-cesco">
+								<div class="circulos" id="two"></div>
+								<div class="circulos" id="three"></div>
                             </div>
                             <div class="Presentacion col-12 col-md-8">
-                                <p>Mi nombre es Francisco José Valle Cornejo</p>
+								<div class="row">
+									<div class="col-1" id="parentesis">
+										<p>{</p>
+									</div>
+									<div class="col-10">
+									<p>Mi nombre es Francisco José Valle Cornejo</p>
                                 <p>
                                     Soy Desarrollador Web FrontEnd salvadoreño. He estado haciendo paginas web desde mediados del año 2020 por cursos universitarios. Despues me he expandido a cursos externos en Platzi y Udemy para aumentar mi conocimiento en este campo de la programación.
                                 </p>
+									</div>
+									<div class="col-1" id="parentesis">
+										<p>}</p>
+									</div>
+								</div>
                             </div>
                         </div>
                     </article>

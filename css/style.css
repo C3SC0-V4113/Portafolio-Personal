@@ -46,6 +46,20 @@ body{
     background-size: 20rem;
     background-color: #D8E8E4;
 }
+#rectangulofondo{
+    z-index: -1;
+    position: relative;
+    margin: 0;
+    transform: translateY(29.5rem);
+    width: 100%;
+    height: 9rem;
+}
+#rectangulofondo>rect{
+    margin: 0;
+    width: 100%;
+    height: 9rem;
+    fill: #F1EDEC;
+}
 article{
     border-radius: 5px;
     left: 0;
@@ -59,7 +73,49 @@ article{
     box-shadow: 0px 16px 40px 5px #9AAACF;
 }
 article div{
-    padding: 20px;
+    padding: 10px;
+}
+#about>article{
+    color: black;
+    background-color: #F1EDEC;
+}
+#foto-persona{
+    padding: 1rem;
+}
+#foto-persona>img{
+    position: relative;
+    z-index: 1;
+    margin: 3rem;
+}
+.circulos{
+    position: relative;
+    border-radius: 100%;
+    background: rgb(41,170,225);
+    background: linear-gradient(180deg, rgba(41,170,225,1) 21%, rgba(247,126,172,1) 64%);
+    width: 0.5rem;
+    height: 0.5rem;
+}
+#one{
+    width: 10rem;
+    height: 10rem;
+    float: left;
+    transform: rotate(45deg);
+    margin-bottom: -10rem;
+}
+#two{
+    z-index: 2;
+    float: left;
+    transform: rotate(180deg);
+    width: 3rem;
+    height: 3rem;
+    margin-top: -8rem;
+}
+#three{
+    float: right;
+    width: 5rem;
+    height: 5rem;
+    transform: rotate(270deg);
+    margin-top: -8rem;
 }
 rect{
     fill: none;
@@ -113,10 +169,19 @@ rect{
 }
 @media screen and (max-width: 425px) {
     #header{
+        padding-left: 2rem;
+        padding-right: 2rem;
         position: relative;
         height: 14rem;
         border-bottom-left-radius: 100% 5rem;
         border-bottom-right-radius: 100% 5rem;
+    }
+    #one{
+        width: 7rem;
+        height: 7rem;
+        float: left;
+        transform: rotate(45deg);
+        margin-bottom: -8rem;
     }
 }
 #iconsmedia{
@@ -171,13 +236,27 @@ rect{
     background-color: #2AD1A4;
     border-color: #2BD2A4;
 }
-/*@media screen and (min-width: 425px) and (max-width: 768px) {
-    #Layer_1{
-        margin-left: 2rem;
-        height: 25rem;
-        width: 25rem;
+@media screen and (min-width: 768px) and (max-width: 986px) {
+    #one{
+        width: 8rem;
+        height: 8rem;
+        float: left;
+        transform: rotate(45deg);
+        margin-bottom: -10rem;
     }
-    #head{
-        padding-top: 7rem;
+    #two{
+        z-index: 2;
+        float: left;
+        transform: rotate(180deg);
+        width: 3rem;
+        height: 3rem;
+        margin-top: -7rem;
     }
-}*/
+    #three{
+        float: right;
+        width: 5rem;
+        height: 5rem;
+        transform: rotate(270deg);
+        margin-top: -8rem;
+    }
+}
