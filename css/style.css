@@ -67,10 +67,9 @@ article{
     margin: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #080E2C;
-    color: #ccc;
-    -webkit-box-shadow: 0px 16px 40px 5px #9AAACF; 
-    box-shadow: 0px 16px 40px 5px #9AAACF;
+    /*color: #ccc;*/
+    /*-webkit-box-shadow: 0px 16px 40px 5px #9AAACF; 
+    box-shadow: 0px 16px 40px 5px #9AAACF;*/
 }
 article div{
     padding: 10px;
@@ -129,6 +128,25 @@ article div{
 rect{
     fill: none;
 }
+#hab{
+    background-color: #F3FDFB;
+}
+#hab>div>article{
+    width: 80%;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logos-hab>div{
+    /*margin: 0.5rem;*/
+    border: 2px solid #F3FDFB;
+    border-radius: 5px;
+    height: 10rem;
+    background-color: #2AD1A4;
+}
+#projects{
+    background-color: #91DDEA;
+}
 #footer{
     bottom: 0;
     left: 0;
@@ -174,6 +192,12 @@ rect{
     }
     #redsvg{
         margin-top: 1rem;
+    }
+    #foto-persona{
+        padding-bottom: 0rem;
+    }
+    .Presentacion{
+        padding-top: 0rem;
     }
 }
 @media screen and (max-width: 425px) {
@@ -224,7 +248,6 @@ rect{
     position:absolute;
     top:0;
     left:0;
-    /*z-index:-1;*/
     padding:10px;
     margin: 0;
     transform: translate(50%, 50%);
