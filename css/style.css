@@ -141,8 +141,28 @@ rect{
     /*margin: 0.5rem;*/
     border: 2px solid #F3FDFB;
     border-radius: 5px;
-    height: 10rem;
+    height: 7rem;
     background-color: #2AD1A4;
+}
+#logos-hab>div>svg{
+    height: 5rem;
+    width: 5rem;
+    max-width: 81px;
+    max-height: 81px;
+    display: block;
+    margin: auto;
+}
+#logos-hab>div>svg>path{
+    fill: white;
+}
+#logos-hab>div>svg>g>path{
+    fill: #2AD1A4;
+}
+#externo{
+    fill: white;
+}
+#medio{
+    fill: #2AD1A4;
 }
 #projects{
     background-color: #91DDEA;
