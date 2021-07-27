@@ -1725,6 +1725,8 @@
 						<h3>Habilidades</h3>
 						<div class="row" id="logos-hab">
 							<div class="col-6 col-md-4 col-lg-3">
+								<h3 class="texto-caj">Bootstrap</h3>
+								<hr class="" id="divisor-2">
 <svg height="368pt" viewBox="0 0 368 368" width="368pt"
     xmlns="http://www.w3.org/2000/svg">
     <path d="m344 0h-320c-13.230469 0-24 10.769531-24 24v320c0 13.230469 10.769531 24 24 24h320c13.230469 0 24-10.769531 24-24v-320c0-13.230469-10.769531-24-24-24zm8 344c0 4.414062-3.59375 8-8 8h-320c-4.40625 0-8-3.585938-8-8v-320c0-4.40625 3.59375-8 8-8h320c4.40625 0 8 3.59375 8 8zm0 0"/>
@@ -1732,6 +1734,8 @@
 </svg>
 							</div>
 							<div class="col-6 col-md-4 col-lg-3">
+								<h3 class="texto-caj">CSS3</h3>
+								<hr class="" id="divisor-2">
 <svg version="1.1" id="Capa_1"
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -1772,6 +1776,8 @@
 </svg>
 							</div>
 							<div class="col-6 col-md-4 col-lg-3">
+								<h3 class="texto-caj">HTML5</h3>
+								<hr class="" id="divisor-2">
 <svg version="1.1" id="Layer_1"
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 434.147 434.147" style="enable-background:new 0 0 434.147 434.147;" xml:space="preserve">
@@ -1813,6 +1819,8 @@
 </svg>
 							</div>
 							<div class="col-6 col-md-4 col-lg-3">
+								<h3 class="texto-caj">JavaScript</h3>
+								<hr class="" id="divisor-2">
 <svg version="1.1" id="Capa_1"
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 312.553 312.553" style="enable-background:new 0 0 312.553 312.553;" xml:space="preserve">
@@ -1859,6 +1867,8 @@
 </svg>
 							</div>
 							<div class="col-6 col-md-4 col-lg-3">
+								<h3 class="texto-caj">PHP</h3>
+								<hr class="" id="divisor-2">
 <svg version="1.1" id="Capa_1"
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
