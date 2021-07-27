@@ -134,11 +134,15 @@ rect{
 #hab>div>article{
     width: 80%;
     margin: 50px;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
 }
+#habi{
+    text-align: center;
+}
 #logos-hab>div{
-    /*margin: 0.5rem;*/
+    margin-top: 1rem;
     border: 2px solid #F3FDFB;
     border-radius: 5px;
     height: 10rem;
@@ -146,10 +150,11 @@ rect{
 }
 #logos-hab>div:hover{
     border: 1px solid #1B8568;
+    z-index: 2;
     border-radius: 15px;
-    box-shadow: -1px 7px 8px 3px #1B8568;;
-    -webkit-box-shadow: -1px 7px 8px 3px #1B8568;;
-    -moz-box-shadow: -1px 7px 8px 3px #1B8568;;
+    box-shadow: 1px 7px 8px 3px #1B8568;;
+    -webkit-box-shadow: 1px 7px 8px 3px #1B8568;;
+    -moz-box-shadow: 1px 7px 8px 3px #1B8568;;
     -webkit-transition: border-radius 0.6s 0s ease-in-out, box-shadow 0.5s 0s linear;
     -moz-transition: border-radius 0.6s 0s ease-in-out, box-shadow 0.5s 0s linear;
     -o-transition: border-radius 0.6s 0s ease-in-out, box-shadow 0.5s 0s linear;
@@ -178,6 +183,7 @@ rect{
     filter: drop-shadow(1rem 0.5rem 0.2rem #1B8568);
 }
 #logos-hab>div>h3{
+    font-size: 1rem;
     position: relative;
     text-align: center;
     margin: auto;
@@ -200,6 +206,12 @@ rect{
     clear: both;
     padding-bottom: 15px;
     padding-top: 15px;
+}
+.carousel-indicators{
+    background-color: black;
+}
+.carousel-control-next, .carousel-control-prev{
+    background-color: black;
 }
 #footer p{
     padding-left: 15px;
@@ -258,7 +270,6 @@ rect{
         width: 7rem;
         height: 7rem;
         float: left;
-        transform: rotate(45deg);
         margin-bottom: -8rem;
     }
 }
@@ -314,10 +325,9 @@ rect{
     border-color: #2BD2A4;
 }
 @media screen and (min-width:425px) and (max-width:768px){
-        #two{
+    #two{
         z-index: 2;
         float: left;
-        transform: rotate(180deg);
         width: 4rem;
         height: 4rem;
         margin-top: -11rem;
@@ -326,7 +336,6 @@ rect{
         float: right;
         width: 6rem;
         height: 6rem;
-        transform: rotate(270deg);
         margin-top: -10rem;
     }
 }
@@ -335,13 +344,11 @@ rect{
         width: 8rem;
         height: 8rem;
         float: left;
-        transform: rotate(45deg);
         margin-bottom: -10rem;
     }
     #two{
         z-index: 2;
         float: left;
-        transform: rotate(180deg);
         width: 3rem;
         height: 3rem;
         margin-top: -7rem;
@@ -350,7 +357,6 @@ rect{
         float: right;
         width: 5rem;
         height: 5rem;
-        transform: rotate(270deg);
         margin-top: -8rem;
     }
 }
