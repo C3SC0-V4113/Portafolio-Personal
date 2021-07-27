@@ -1690,7 +1690,7 @@
 
 							<div class="col-12 col-md-4" id="foto-persona">
 								<div class="circulos" id="one"></div>
-								<img src="<?php echo dirname($_SERVER['PHP_SELF']) . ("/img/practice_3_MEJOR-min.jpg") ?>" class="img-fluid rounded-circle mx-auto d-block" alt="perfil-cesco">
+								<img src="<?php echo dirname("./img/practice_3_MEJOR-min.jpg").("/practice_3_MEJOR-min.jpg") ?>" class="img-fluid rounded-circle mx-auto d-block" alt="perfil-cesco">
 								<div class="circulos" id="two"></div>
 								<div class="circulos" id="three"></div>
 							</div>
