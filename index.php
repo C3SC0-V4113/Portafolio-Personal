@@ -1690,7 +1690,7 @@
 
 							<div class="col-12 col-md-4" id="foto-persona">
 								<div class="circulos" id="one"></div>
-								<img src="<?php echo dirname("./img/practice_3_MEJOR-min.jpg").("/practice_3_MEJOR-min.jpg") ?>" class="img-fluid rounded-circle mx-auto d-block" alt="perfil-cesco">
+								<img src="<?php echo dirname("./img/practice_3_MEJOR-min.jpg") . ("/practice_3_MEJOR-min.jpg") ?>" class="img-fluid rounded-circle mx-auto d-block" alt="perfil-cesco">
 								<div class="circulos" id="two"></div>
 								<div class="circulos" id="three"></div>
 							</div>
@@ -1913,7 +1913,20 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12" id="div-carrusel">
+				</div>
+			</article>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+		<div class="col-12" id="division"><svg viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M-1.41,26.14 C149.99,150.00 330.41,-30.09 503.67,79.44 L500.00,150.00 L0.00,150.00 Z"></path></svg></div>
+					</div>
+		</div>
+	<div class="container-fluid" id="certifica">
+		<div class="row">
+			<article>
+				<div class="row">
+				<div class="col-12" id="div-carrusel">
 						<div id="carrousel" class="carousel slide" data-bs-ride="carousel">
 							<div class="carousel-indicators">
 								<button type="button" data-bs-target="#carrousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -1957,8 +1970,91 @@
 		<div class="row">
 			<article>
 				<div class="col-12">
-					<h3>Proyectos</h3>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque eum ratione reiciendis incidunt repudiandae deleniti, possimus ea dignissimos eius laborum asperiores necessitatibus, recusandae illo et cupiditate perferendis quo nulla voluptatibus.</p>
+					<h3 id="Project">Proyectos</h3>
+					<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+						<div class="col">
+							<div class="card text-center">
+								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">TITULO</h5>
+									<p class="card-text">Lorem ipsum, </p>
+									<a href="#" class="btn btn-primary">GitHub</a>
+									<a href="#" class="btn btn-primary">Visitar</a>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card text-center">
+								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">TITULO</h5>
+									<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo sapiente vitae cumque fugit reiciendis voluptatem tempore omnis ut asperiores. Eveniet sit quas quae officiis repellat nulla ea doloremque voluptates adipisci!</p>
+									<a href="#" class="btn btn-primary">GitHub</a>
+									<a href="#" class="btn btn-primary">Visitar</a>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card text-center">
+								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">TITULO</h5>
+									<p class="card-text">sapiente vitae cumque fugit reiciendis voluptatem tempore omnis ut asperiores. Eveniet sit quas quae officiis repellat nulla ea doloremque voluptates adipisci!</p>
+									<a href="#" class="btn btn-primary">GitHub</a>
+									<a href="#" class="btn btn-primary">Visitar</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row collapse row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="collapseExample">
+					<div class="col">
+							<div class="card text-center">
+								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">TITULO</h5>
+									<p class="card-text">Lorem ipsum, dolor sit amet consectetur ciendis voluptatem tempore omnis ut asperiores. Eveniet sit quas quae officiis repellat nulla ea doloremque voluptates adipisci!</p>
+									<a href="#" class="btn btn-primary">GitHub</a>
+									<a href="#" class="btn btn-primary">Visitar</a>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card text-center">
+								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">TITULO</h5>
+									<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo sapiente vitae cumque fugit reiciendis voluptatem tempore omnis ut asperiores. Eveniet sit quas quae officiis repellat nulla ea doloremque voluptates adipisci!</p>
+									<a href="#" class="btn btn-primary">GitHub</a>
+									<a href="#" class="btn btn-primary">Visitar</a>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card text-center">
+								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">TITULO</h5>
+									<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo sapiente vitae cumque fugit reiciendis voluptatem tempore omnis ut asperiores. Eveniet sit quas quae officiis repellat nulla ea doloremque voluptates adipisci!</p>
+									<a href="#" class="btn btn-primary">GitHub</a>
+									<a href="#" class="btn btn-primary">Visitar</a>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card text-center">
+								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">TITULO</h5>
+									<p class="card-text">Lorem ipsum, dolor sit amet cpisci!</p>
+									<a href="#" class="btn btn-primary">GitHub</a>
+									<a href="#" class="btn btn-primary">Visitar</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    					Ver Más
+  					</button>
 				</div>
 			</article>
 		</div>
