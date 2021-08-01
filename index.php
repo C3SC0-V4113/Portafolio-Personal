@@ -1687,7 +1687,6 @@
 				<section id="about">
 					<article>
 						<div class="row">
-
 							<div class="col-12 col-md-4" id="foto-persona">
 								<div class="circulos" id="one"></div>
 								<img src="<?php echo dirname("./img/practice_3_MEJOR-min.jpg") . ("/practice_3_MEJOR-min.jpg") ?>" class="img-fluid rounded-circle mx-auto d-block" alt="perfil-cesco">
@@ -1718,14 +1717,15 @@
 			</div>
 		</div>
 	</div>
+	<!--Habilidades-->
 	<div class="container-fluid" id="hab">
 		<div class="row">
 			<article>
 				<div class="row">
 					<div class="col-12">
 						<h3 id="habi">Habilidades</h3>
-						<div class="row" id="logos-hab">
-							<div class="col-6 col-md-4 col-lg-3">
+						<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="logos-hab">
+							<div class="col">
 								<h3 class="texto-caj">Bootstrap</h3>
 								<hr class="" id="divisor-2">
 								<svg height="368pt" viewBox="0 0 368 368" width="368pt" xmlns="http://www.w3.org/2000/svg">
@@ -1733,7 +1733,7 @@
 									<path d="m216 64h-112c-4.414062 0-8 3.585938-8 8v224c0 4.425781 3.585938 8 8 8h112c30.878906 0 56-25.128906 56-56v-16c0-20.34375-10.902344-38.191406-27.175781-48 16.273437-9.808594 27.175781-27.65625 27.175781-48v-16c0-30.878906-25.121094-56-56-56zm40 168v16c0 22.054688-17.945312 40-40 40h-104v-96h104c22.054688 0 40 17.945312 40 40zm0-96c0 22.054688-17.945312 40-40 40h-104v-96h104c22.054688 0 40 17.945312 40 40zm0 0" />
 								</svg>
 							</div>
-							<div class="col-6 col-md-4 col-lg-3">
+							<div class="col">
 								<h3 class="texto-caj">CSS3</h3>
 								<hr class="" id="divisor-2">
 								<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -1773,7 +1773,7 @@
 									</g>
 								</svg>
 							</div>
-							<div class="col-6 col-md-4 col-lg-3">
+							<div class="col">
 								<h3 class="texto-caj">HTML5</h3>
 								<hr class="" id="divisor-2">
 								<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 434.147 434.147" style="enable-background:new 0 0 434.147 434.147;" xml:space="preserve">
@@ -1814,7 +1814,7 @@
 									</g>
 								</svg>
 							</div>
-							<div class="col-6 col-md-4 col-lg-3">
+							<div class="col">
 								<h3 class="texto-caj">JavaScript</h3>
 								<hr class="" id="divisor-2">
 								<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 312.553 312.553" style="enable-background:new 0 0 312.553 312.553;" xml:space="preserve">
@@ -1860,7 +1860,7 @@
 									</g>
 								</svg>
 							</div>
-							<div class="col-6 col-md-4 col-lg-3">
+							<div class="col">
 								<h3 class="texto-caj">PHP</h3>
 								<hr class="" id="divisor-2">
 								<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -1917,16 +1917,20 @@
 			</article>
 		</div>
 	</div>
+	<!--Divisor SVG-->
 	<div class="container-fluid">
 		<div class="row">
-		<div class="col-12" id="division"><svg viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M-1.41,26.14 C149.99,150.00 330.41,-30.09 503.67,79.44 L500.00,150.00 L0.00,150.00 Z"></path></svg></div>
-					</div>
+			<div id="division" class="col-12"><svg viewBox="0 0 500 150" preserveAspectRatio="none">
+					<path d="M-1.41,26.14 C149.99,150.00 330.41,-30.09 503.67,79.44 L500.00,150.00 L0.00,150.00 Z"></path>
+				</svg></div>
 		</div>
+	</div>
+	<!--Carrusel con Certificados-->
 	<div class="container-fluid" id="certifica">
 		<div class="row">
 			<article>
 				<div class="row">
-				<div class="col-12" id="div-carrusel">
+					<div class="col-12" id="div-carrusel">
 						<div id="carrousel" class="carousel slide" data-bs-ride="carousel">
 							<div class="carousel-indicators">
 								<button type="button" data-bs-target="#carrousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -1966,6 +1970,7 @@
 			</article>
 		</div>
 	</div>
+	<!--Proyectos-->
 	<div class="container-fluid" id="projects">
 		<div class="row">
 			<article>
@@ -2007,7 +2012,7 @@
 						</div>
 					</div>
 					<div class="row collapse row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="collapseExample">
-					<div class="col">
+						<div class="col">
 							<div class="card text-center">
 								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
 								<div class="card-body">
@@ -2052,9 +2057,9 @@
 							</div>
 						</div>
 					</div>
-					<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    					Ver Más
-  					</button>
+					<button id="botonColapsable" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+						Ver Más
+					</button>
 				</div>
 			</article>
 		</div>
@@ -2146,5 +2151,5 @@
 	</div>
 </body>
 <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-
+<script src="js/index.js"></script>
 </html>
