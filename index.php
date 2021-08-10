@@ -2112,19 +2112,23 @@
 			<section class="d-flex justify-content-center p-4 border-bottom">
 				<div class="row">
 					<div class="col-12 col-md-6">
-						<form>
+						<form method="POST">
 							<p>Contactame por Correo Electronico</p>
 							<div class="mb-3">
-								<label for="exampleInputEmail1" class="form-label">Escribe tú correo electronico</label>
-								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+								<label for="correoE" class="form-label">Escribe tú correo electronico</label>
+								<input type="email" name="email" class="form-control" id="correoE" aria-describedby="emailHelp">
 								<div id="emailHelp" class="form-text">No compartiremos tu datos personales con nadie</div>
 							</div>
 							<div class="mb-3">
-								<label for="exampleInputPassword1" class="form-label">Mensaje</label>
-								<textarea class="form-control" name="exampleInputPassword1" id="exampleInputPassword1" rows="3"></textarea>
+								<label for="mensajeE" class="form-label">Mensaje</label>
+								<textarea class="form-control" name="mensajeE" id="mensajeE" rows="3"></textarea>
 							</div>
-							<button type="submit" class="btn btn-primary">Enviar</button>
+							<input class="btn btn-primary" name="send" type="submit" value="Enviar">
+							<!--<button type="submit" name="send" id="send" class="btn btn-primary">Enviar</button>-->
 						</form>
+						<?php
+							include('mail.php');
+						?>
 					</div>
 					<div class="col-12 col-md-6" id="sivar">
 						<div class="row">

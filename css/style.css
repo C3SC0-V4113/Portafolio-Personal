@@ -291,6 +291,9 @@ background: linear-gradient(180deg, rgba(247,158,139,1) 21%, rgba(145,221,234,1)
 .card-body>a{
     margin-top: 5px;
 }
+.alert{
+    margin-top: 5px;
+}
 #footer{
     bottom: 0;
     left: 0;
