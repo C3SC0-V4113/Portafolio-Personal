@@ -24,10 +24,20 @@ if (isset($_POST['send'])) {
                 <use xlink:href='#exclamation-triangle-fill' />
             </svg>
             <div>
-                No se ha enviado exitosamente
+                Ha ocurrido un error al enviar el mensaje
             </div>
         </div>";
         }
+    }
+    else{
+        echo "<div class='alert alert-danger d-flex align-items-center' role='alert'>
+        <svg class='bi flex-shrink-0 me-2' width='24' height='24' role='img' aria-label='Danger:'>
+            <use xlink:href='#exclamation-triangle-fill' />
+        </svg>
+        <div>
+            Porfavor rellené todos los espacios
+        </div>
+    </div>";
     }
 }
 ?>
