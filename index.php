@@ -528,7 +528,7 @@
 	</div>
 	<div class="invisibles">
 	<?php
-	include("img\svg\ISOMETRIC WORKSPACE.svg");
+	include("img/svg/ISOMETRIC WORKSPACE.svg");
 	/*include("img\svg\bootstrap.svg");
 	include("img\svg\css-3.svg");
 	include("img\svg\html-5.svg");
