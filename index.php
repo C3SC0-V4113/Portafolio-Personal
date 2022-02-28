@@ -352,23 +352,23 @@
 					<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 						<div class="col">
 							<div class="card text-center">
-								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
+								<img src="img/Organizadora de Eventos.png" class="card-img-top" alt="...">
 								<div class="card-body">
-									<h5 class="card-title">TITULO</h5>
-									<p class="card-text">Lorem ipsum, </p>
-									<a href="#" class="btn btn-primary">GitHub</a>
-									<a href="#" class="btn btn-primary">Visitar</a>
+									<h5 class="card-title">Organizadora de Eventos</h5>
+									<p class="card-text">Proyecto personal realizado en PHP simulando ser una empresa realizadora de bodas,cumpleaños y otros eventos</p>
+									<a href="https://github.com/C3SC0-V4113/Organizador-de-Eventos" class="btn btn-primary">GitHub</a>
+									<a href="#" class="btn btn-primary disabled" role="button" aria-disabled="true">Visitar</a>
 								</div>
 							</div>
 						</div>
 						<div class="col">
 							<div class="card text-center">
-								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
+								<img src="img/Mapa Interactivo.png" class="card-img-top" alt="...">
 								<div class="card-body">
-									<h5 class="card-title">TITULO</h5>
-									<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo sapiente vitae cumque fugit reiciendis voluptatem tempore omnis ut asperiores. Eveniet sit quas quae officiis repellat nulla ea doloremque voluptates adipisci!</p>
-									<a href="#" class="btn btn-primary">GitHub</a>
-									<a href="#" class="btn btn-primary">Visitar</a>
+									<h5 class="card-title">Mapa Interactivo de El Salvador</h5>
+									<p class="card-text">Mapa Creado a partir de un svg, con datos importantes de sus Departamentos, cabeceras, sitios túristicos. </br>Creado con NodeJS, Express y Handlebars</p>
+									<a href="https://github.com/C3SC0-V4113/Mapa-Interactivo" class="btn btn-primary">GitHub</a>
+									<a href="#" class="btn btn-primary disabled" role="button" aria-disabled="true">Visitar</a>
 								</div>
 							</div>
 						</div>
