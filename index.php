@@ -25,12 +25,12 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#about">¿Quien Soy?</a>
+					</li>					
+					<li class="nav-item">
+						<a class="nav-link" href="#hab">Habilidades</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#projects">Proyectos</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#hab">Habilidades</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#contacts">Contactos</a>
