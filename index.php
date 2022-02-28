@@ -374,12 +374,12 @@
 						</div>
 						<div class="col">
 							<div class="card text-center">
-								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
+								<img src="img/Inventario UDB.png" class="card-img-top" alt="...">
 								<div class="card-body">
-									<h5 class="card-title">TITULO</h5>
-									<p class="card-text">sapiente vitae cumque fugit reiciendis voluptatem tempore omnis ut asperiores. Eveniet sit quas quae officiis repellat nulla ea doloremque voluptates adipisci!</p>
-									<a href="#" class="btn btn-primary">GitHub</a>
-									<a href="#" class="btn btn-primary">Visitar</a>
+									<h5 class="card-title">Inventario UDB</h5>
+									<p class="card-text">Proyecto Personal de un sistema de inventario de salidas y entradas basado en bodegas, realizado en C# con ASP.Net y Net.Core</p>
+									<a href="https://github.com/C3SC0-V4113/Proyecto_DSE" class="btn btn-primary">GitHub</a>
+									<a href="#" class="btn btn-primary disabled" role="button" aria-disabled="true">Visitar</a>
 								</div>
 							</div>
 						</div>
