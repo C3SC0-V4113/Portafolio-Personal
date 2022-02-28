@@ -387,27 +387,27 @@
 					<div class="row collapse row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="collapseExample">
 						<div class="col">
 							<div class="card text-center">
-								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
+								<img src="img/Alquiler de Autos.png" class="card-img-top" alt="...">
 								<div class="card-body">
-									<h5 class="card-title">TITULO</h5>
-									<p class="card-text">Lorem ipsum, dolor sit amet consectetur ciendis voluptatem tempore omnis ut asperiores. Eveniet sit quas quae officiis repellat nulla ea doloremque voluptates adipisci!</p>
-									<a href="#" class="btn btn-primary">GitHub</a>
-									<a href="#" class="btn btn-primary">Visitar</a>
+									<h5 class="card-title">Alquiler de Autos</h5>
+									<p class="card-text">Aplicacion Multiplataforma creada con React y React-Native con base de datos en MySQL en servidor EXPRESS</p>
+									<a href="https://github.com/C3SC0-V4113/Alquiler-de-Automoviles" class="btn btn-primary">GitHub</a>
+									<a href="#" class="btn btn-primary disabled" role="button" aria-disabled="true">Visitar</a>
 								</div>
 							</div>
 						</div>
 						<div class="col">
 							<div class="card text-center">
-								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
+								<img src="img/Portafolio Personal.png" class="card-img-top" alt="...">
 								<div class="card-body">
-									<h5 class="card-title">TITULO</h5>
-									<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo sapiente vitae cumque fugit reiciendis voluptatem tempore omnis ut asperiores. Eveniet sit quas quae officiis repellat nulla ea doloremque voluptates adipisci!</p>
-									<a href="#" class="btn btn-primary">GitHub</a>
-									<a href="#" class="btn btn-primary">Visitar</a>
+									<h5 class="card-title">Portafolio Personal</h5>
+									<p class="card-text">Sitio Web en PHP con el objetivo de mostrar mis habilidades como desarrollador</p>
+									<a href="https://github.com/C3SC0-V4113/Portafolio-Personal" class="btn btn-primary">GitHub</a>
+									<a href="https://cescovalle.com/" class="btn btn-primary">Visitar</a>
 								</div>
 							</div>
 						</div>
-						<div class="col">
+						<!--<div class="col">
 							<div class="card text-center">
 								<img src="img/pc-placeholder.jpg" class="card-img-top" alt="...">
 								<div class="card-body">
@@ -428,7 +428,7 @@
 									<a href="#" class="btn btn-primary">Visitar</a>
 								</div>
 							</div>
-						</div>
+						</div>-->
 					</div>
 					<button id="botonColapsable" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
 						Ver Más
